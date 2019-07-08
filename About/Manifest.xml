@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+	<identifier>VegetarianMealsBulkCookingPatch</identifier>
+	<version>1.0.0.1</version>
+	<dependencies>
+		<li>VegetarianMeals[1.0]</li>
+		<li>SimpleBulkCooking</li>
+	</dependencies>
+	<incompatibleWith />
+	<loadBefore />
+	<loadAfter />
+	<suggests />
+	<showCrossPromotions>true</showCrossPromotions>
+	<manifestUri>https://github.com/Adda0/VegetarianMealsBulkCookingPatch/blob/master/About/Manifest.xml</manifestUri>
+	<downloadUri>https://github.com/Adda0/VegetarianMealsBulkCookingPatch/releases</downloadUri>
+</Manifest>
