@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef Name="CookMealVegBulk" Abstract="True">
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<recipeUsers>
+			<li>ElectricStove</li>
+			<li>FueledStove</li>
+		</recipeUsers>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<workSkill>Cooking</workSkill>
+		<fixedIngredientFilter>
+			<categories>
+				<li>PlantFoodRaw</li>
+				<li>AnimalProductRaw</li>
+			</categories>
+			<specialFiltersToDisallow>
+				<li>AllowPlantFood</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>FoodRaw</li>
+			</categories>
+			<disallowedCategories>
+				<li>EggsFertilized</li>
+			</disallowedCategories>
+			<disallowedThingDefs>
+				<li>InsectJelly</li>
+			</disallowedThingDefs>
+		</defaultIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="CookMealVegBulk">
+		<defName>CookMealFineVegBulk</defName>
+		<label>cook four vegetarian fine meals</label>
+		<description>Cook four somewhat complex meals from a combination of plant ingredients, eggs and milk.</description>
+		<workAmount>1575</workAmount>
+		<jobString>Cooking vegetarian fine meals.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>PlantFoodRaw</li>
+						<li>AnimalProductRaw</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<products>
+			<MealFine>4</MealFine>
+		</products>
+		<skillRequirements>
+			<Cooking>9</Cooking>
+		</skillRequirements>
+	</RecipeDef>
+
+	<RecipeDef ParentName="CookMealVegBulk">
+		<defName>CookMealLavishVegBulk</defName>
+		<label>cook four vegetarian lavish meals</label>
+		<description>Cook four very complex meals from a combination of plant ingredients, eggs and milk. Much of the ingredients are wasted.</description>
+		<workAmount>2800</workAmount>
+		<jobString>Cooking vegetarian lavish meals.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>PlantFoodRaw</li>
+						<li>AnimalProductRaw</li>
+					</categories>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<products>
+			<MealLavish>4</MealLavish>
+		</products>
+		<skillRequirements>
+			<Cooking>11</Cooking>
+		</skillRequirements>
+	</RecipeDef>
+
+	<RecipeDef ParentName="CookMealVegBulk">
+		<defName>CookMealSurvivalVegBulk</defName>
+		<label>cook four vegetarian packaged survival meals</label>
+		<description>Prepare four packaged survivals meal from a combination of plant ingredients, eggs and milk. Much of the ingredients are wasted in the preservation process.</description>
+		<workAmount>1575</workAmount>
+		<jobString>Cooking vegetarian survival meals.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>PlantFoodRaw</li>
+						<li>AnimalProductRaw</li>
+					</categories>
+				</filter>
+				<count>2.4</count>
+			</li>
+		</ingredients>
+		<products>
+			<MealSurvivalPack>4</MealSurvivalPack>
+		</products>
+		<skillRequirements>
+			<Cooking>11</Cooking>
+		</skillRequirements>
+		<researchPrerequisite>PackagedSurvivalMeal</researchPrerequisite>
+	</RecipeDef>
+</Defs>
