@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Vegetarian Meals Bulk Cooking Patch</name>
+	<author>Adda</author>
+	<supportedVersions><li>1.0</li></supportedVersions>
+	<url>https://steamcommunity.com/sharedfiles/filedetails/?id=1797189089</url>
+	<description>
+Simple mod adding three new recipes for cooking vegetarian meals from Vegetarian Meals [1.0] mod by ConZ in bulk – in packs of four – in order to be compatible with Simple Bulk Cooking mod by Lanilor.
+
+––––––––––––
+New recipes
+Cook four vegetarian fine meals
+Cook four vegetarian lavish meals
+Cook four vegetarian packaged survival meals
+
+Stats of those meals are the same as in Vegetarian Meals [1.0] by ConZ. I simply multiplied the number of food requirements by 4.
+
+For higher demands on those food requirements, I suggest using my other mod called Vegetarian Meals Increased Nutrition which increases the amount of nutrition needed for vegetarian meals so vanilla meals still have a place in the game and vegetarian meals are not that overpowered.
+
+––––––––––––
+Compatibility and other mods
+Mod is safe to add to your saved games or delete from them. Only make sure to delete all bills with these bulk cooked vegetarian meals from your stoves.
+
+Required mods
+Vegetarian Meals [1.0] by ConZ – adds three new vegetarian meals copying vanilla meals made just with raw veggies, berries, milk, eggs or insect jelly in any combination.
+
+Simple Bulk Cooking by Lanilor – adds an ability to produce meals in bulk – in packs of four. Does not decrease the amount of work needed to make a meal, only saves the time of your cook by allowing him to cook meals in bulk. Technically, this mod is not required, my mod is a standalone version but was created especially for this mod to run together so I would say it is reasonable to have this one as well.
+
+Recommended mods
+Vegetarian Meals Increased Nutrition by Adda – increases the amount of nutrition needed to cook these new vegetarian meals so vanilla meals still have a place in the game and vegetarian meals are not that overpowered.
+
+Compatible mods
+Mod should be fully compatible with every other mod. Though if you find any incompatibility, let me know in the discussion below so I could fix it or at least give you a warning.
+
+Known incompatible mods
+None so far. If you find any incompatibility, let me know in the discussion below so I could fix it or at least give you a warning :)
+
+Load order
+Load order should not be affected by any other mods. Just load this anywhere below Vegetarian Meals [1.0] by ConZ.
+
+I highly recommend using Simple Bulk Cooking mod by Lanilor and loading my mod right after this one so your bulk cooking recipes are nicely aligned together.
+
+Ideal example:
+Core
+*** other mods ***
+Vegetarian Meals [1.0] by ConZ
+*** other mods ***
+Simple Bulk Cooking by Lanilor
+Vegetarian Meals Bulk Cooking Patch
+*** other mods ***
+
+If you find any problems, just let me know in the discussion below so I can fix them.
+
+––––––––––––
+Credits
+Original mod: Vegetarian Meals [1.0] by ConZ – I used his meals and just rewrite his code to add an option to cook any of these three new vegetarian meals in bulk.
+
+License
+All original code in this mod is licensed under the MIT license. Do what you want, but give me credit.
+	</description>
+</ModMetaData>
