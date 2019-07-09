@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Vegetarian Meals Bulk Cooking Patch</name>
+	<author>Adda</author>
+	<supportedVersions><li>1.0</li></supportedVersions>
+	<url>https://steamcommunity.com/sharedfiles/filedetails/?id=1797189089</url>
+	<description>
+Simple mod adding three new recipes for cooking vegetarian meals from Vegetarian Meals [1.0] mod by ConZ in bulk – in packs of four – in order to be compatible with Simple Bulk Cooking mod by Lanilor or Feed The Colonists mod by PostRobcore.
+
+––––––––––––
+New recipes
+Cook four vegetarian fine meals (required cooking skill: 9)
+Cook four vegetarian lavish meals (required cooking skill: 11)
+Cook four vegetarian packaged survival meals (required cooking skill: 11)
+
+Stats of those meals are the same as in Vegetarian Meals [1.0]. I simply multiplied the number of food requirements by 4. Work amount was adjusted to be the same as in Simple Bulk Cooking or Feed The Colonists.
+
+For higher demands on those food requirements, I suggest using my other mod called Vegetarian Meals Increased Nutrition which increases the amount of nutrition needed for vegetarian meals so vanilla meals still have a place in the game and vegetarian meals are not that overpowered.
+
+––––––––––––
+Compatibility and other mods
+Mod is safe to add to your saved games or delete from them. Only make sure to delete all bills with these bulk cooked vegetarian meals from your stoves.
+
+Required mods
+Vegetarian Meals [1.0] by ConZ – adds three new vegetarian meals copying vanilla meals made just with raw veggies, berries, milk, eggs or insect jelly in any combination.
+
+Recommended mods
+Simple Bulk Cooking by Lanilor – adds an ability to produce meals in bulk – in packs of four. Does not decrease the amount of work needed to make a meal, only saves the time of your cook by allowing him to cook meals in bulk. Technically, this mod is not required, my mod is a standalone version but was created especially for this mod to run together so I would say it is reasonable to have this one or Feed The Colonists as well.
+
+Feed The Colonists by PostRobcore – adds an ability to produce meals in bulk – in packs of four. Slightly decreasing amount of work needed to cook a meal. Technically, this mod is not required, my mod is a standalone version but was created especially for this mod to run together so I would say it is reasonable to have this one or Simple Bulk Cooking.
+
+Vegetarian Meals Increased Nutrition by Adda – increases the amount of nutrition needed to cook these new vegetarian meals so vanilla meals still have a place in the game and vegetarian meals are not that overpowered.
+
+Compatible mods
+Mod should be fully compatible with every other mod. Though if you find any incompatibility, let me know in the discussion below so I could fix it or at least give you a warning.
+
+Known incompatible mods
+None so far. If you find any incompatibility, let me know in the discussion below so I could fix it or at least give you a warning :)
+
+Load order
+Just load this anywhere below Vegetarian Meals [1.0] by ConZ.
+
+If you use one of bulk cooking mods (Simple Bulk Cooking or Feed The Colonists), I suggest loading my mod right below one of these so your bulk cooking recipes are nicely aligned together.
+
+Ideal example:
+Core
+*** other mods ***
+Vegetarian Meals [1.0]
+*** other mods ***
+Simple Bulk Cooking or Feed The Colonists
+Vegetarian Meals Bulk Cooking Patch
+*** other mods ***
+
+Load order should not be affected by any other mods. 
+
+If you find any problems, just let me know in the discussion below so I can fix them.
+
+––––––––––––
+External links
+https://github.com/Adda0/VegetarianMealsBulkCookingPatch/releases
+
+––––––––––––
+Credits
+Original mod: Vegetarian Meals [1.0] by ConZ – I used his meals and just rewrite his code to add an option to cook any of these three new vegetarian meals in bulk.
+
+Bulk cooking features mods: Simple Bulk Cooking by Lanilor and Feed The Colonists by PostRobcore – I adjusted my mod to have the same features and stats as those two mods to include to these mods the ability to cook vegetarian meals from Vegetarian Meals [1.0] in bulk as well as vanilla meals.
+
+License
+All original code in this mod is licensed under the MIT license. Do whatever you might want to do with my mod, but would be nice if you would give me credit for the original mod/idea :)
+	</description>
+</ModMetaData>
