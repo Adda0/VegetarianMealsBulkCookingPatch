@@ -11,6 +11,6 @@
 	<loadAfter />
 	<suggests />
 	<showCrossPromotions>true</showCrossPromotions>
-	<manifestUri>https://github.com/Adda0/VegetarianMealsBulkCookingPatch/blob/master/About/Manifest.xml</manifestUri>
+	<manifestUri>https://cdn.jsdelivr.net/gh/Adda0/VegetarianMealsBulkCookingPatch/About/Manifest.xml</manifestUri>
 	<downloadUri>https://github.com/Adda0/VegetarianMealsBulkCookingPatch/releases</downloadUri>
 </Manifest>
