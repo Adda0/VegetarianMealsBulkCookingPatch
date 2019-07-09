@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
 	<identifier>VegetarianMealsBulkCookingPatch</identifier>
-	<version>1.0.1.1</version>
+	<version>1.1.2.1</version>
 	<dependencies>
 		<li>VegetarianMeals[1.0]</li>
-		<li>SimpleBulkCooking</li>
 	</dependencies>
 	<incompatibleWith />
 	<loadBefore />
 	<loadAfter />
-	<suggests />
+	<suggests>
+		<li>FeedTheColonists</li>
+		<li>SimpleBulkCooking</li>
+		<li>VegetarianMealsIncreasedNutrition</li>
+	</suggests>
 	<showCrossPromotions>true</showCrossPromotions>
 	<manifestUri>https://cdn.jsdelivr.net/gh/Adda0/VegetarianMealsBulkCookingPatch/About/Manifest.xml</manifestUri>
 	<downloadUri>https://github.com/Adda0/VegetarianMealsBulkCookingPatch/releases</downloadUri>
