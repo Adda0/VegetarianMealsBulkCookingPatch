@@ -14,7 +14,7 @@
 		<li>SimpleBulkCooking</li>
 		<li>SimplyBulkCrafting</li>
 		<li>MasterofCooking</li>
-	</ladAfter>
+	</loadAfter>
 	<suggests>
 		<li>FeedTheColonists</li>
 		<li>SimpleBulkCooking</li>
