@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Master of Cooking</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<!-- Vegetarian fine meals -->
+
+						<RecipeDef ParentName="CookMealVegBulk">
+							<defName>CookMealFineVegBulk5</defName>
+							<label>cook vegetarian fine meals in bulk (5)</label>
+							<description>Cook somewhat complex meals from a combination of plant ingredients, eggs and milk.</description>
+							<workAmount>2175</workAmount>
+							<jobString>Cooking vegetarian fine meals.</jobString>
+							<ingredients>
+								<li>
+									<filter>
+										<categories>
+											<li>PlantFoodRaw</li>
+											<li>AnimalProductRaw</li>
+										</categories>
+									</filter>
+									<count>2.5</count>
+								</li>
+							</ingredients>
+							<products>
+								<MealFine>5</MealFine>
+							</products>
+							<skillRequirements>
+								<Cooking>6</Cooking>
+							</skillRequirements>
+						</RecipeDef>
+
+						<RecipeDef ParentName="CookMealVegBulk">
+							<defName>CookMealFineVegBulk10</defName>
+							<label>cook vegetarian fine meals in bulk (10)</label>
+							<description>Cook somewhat complex meals from a combination of plant ingredients, eggs and milk.</description>
+							<workAmount>4050</workAmount>
+							<jobString>Cooking vegetarian fine meals.</jobString>
+							<ingredients>
+								<li>
+									<filter>
+										<categories>
+											<li>PlantFoodRaw</li>
+											<li>AnimalProductRaw</li>
+										</categories>
+									</filter>
+									<count>5.1</count>
+								</li>
+							</ingredients>
+							<products>
+								<MealFine>10</MealFine>
+							</products>
+							<skillRequirements>
+								<Cooking>9</Cooking>
+							</skillRequirements>
+						</RecipeDef>
+
+						<RecipeDef ParentName="CookMealVegBulk">
+							<defName>CookMealFineVegBulk20</defName>
+							<label>cook vegetarian fine meals in bulk (20)</label>
+							<description>Cook somewhat complex meals from a combination of plant ingredients, eggs and milk.</description>
+							<workAmount>7200</workAmount>
+							<jobString>Cooking vegetarian fine meals.</jobString>
+							<ingredients>
+								<li>
+									<filter>
+										<categories>
+											<li>PlantFoodRaw</li>
+											<li>AnimalProductRaw</li>
+										</categories>
+									</filter>
+									<count>10.5</count>
+								</li>
+							</ingredients>
+							<products>
+								<MealFine>20</MealFine>
+							</products>
+							<skillRequirements>
+								<Cooking>12</Cooking>
+							</skillRequirements>
+						</RecipeDef>
+
+						<RecipeDef ParentName="CookMealVegBulk">
+							<defName>CookMealFineVegBulk50</defName>
+							<label>cook vegetarian fine meals in bulk (50)</label>
+							<description>Cook somewhat complex meals from a combination of plant ingredients, eggs and milk.</description>
+							<workAmount>15000</workAmount>
+							<jobString>Cooking vegetarian fine meals.</jobString>
+							<ingredients>
+								<li>
+									<filter>
+										<categories>
+											<li>PlantFoodRaw</li>
+											<li>AnimalProductRaw</li>
+										</categories>
+									</filter>
+									<count>27.5</count>
+								</li>
+							</ingredients>
+							<products>
+								<MealFine>50</MealFine>
+							</products>
+							<skillRequirements>
+								<Cooking>15</Cooking>
+							</skillRequirements>
+						</RecipeDef>
+
+						<!-- Vegetarian Lavish meals -->
+
+						<RecipeDef ParentName="CookMealVegBulk">
+							<defName>CookMealLavishVegBulk5</defName>
+							<label>cook vegetarian lavish meals in bulk (5)</label>
+							<description>Cook very complex meals from a combination of plant ingredients, eggs and milk. Much of the ingredients are wasted.</description>
+							<workAmount>3900</workAmount>
+							<jobString>Cooking vegetarian lavish meals.</jobString>
+							<ingredients>
+								<li>
+									<filter>
+										<categories>
+											<li>PlantFoodRaw</li>
+											<li>AnimalProductRaw</li>
+										</categories>
+									</filter>
+									<count>5</count>
+								</li>
+							</ingredients>
+							<products>
+								<MealLavish>5</MealLavish>
+							</products>
+							<skillRequirements>
+								<Cooking>9</Cooking>
+							</skillRequirements>
+						</RecipeDef>
+
+						<RecipeDef ParentName="CookMealVegBulk">
+							<defName>CookMealLavishVegBulk10</defName>
+							<label>cook vegetarian lavish meals in bulk (10)</label>
+							<description>Cook very complex meals from a combination of plant ingredients, eggs and milk. Much of the ingredients are wasted.</description>
+							<workAmount>7400</workAmount>
+							<jobString>Cooking vegetarian lavish meals.</jobString>
+							<ingredients>
+								<li>
+									<filter>
+										<categories>
+											<li>PlantFoodRaw</li>
+											<li>AnimalProductRaw</li>
+										</categories>
+									</filter>
+									<count>10.2</count>
+								</li>
+							</ingredients>
+							<products>
+								<MealLavish>10</MealLavish>
+							</products>
+							<skillRequirements>
+								<Cooking>12</Cooking>
+							</skillRequirements>
+						</RecipeDef>
+
+						<RecipeDef ParentName="CookMealVegBulk">
+							<defName>CookMealLavishVegBulk20</defName>
+							<label>cook vegetarian lavish meals in bulk (20)</label>
+							<description>Cook very complex meals from a combination of plant ingredients, eggs and milk. Much of the ingredients are wasted.</description>
+							<workAmount>13600</workAmount>
+							<jobString>Cooking vegetarian lavish meals.</jobString>
+							<ingredients>
+								<li>
+									<filter>
+										<categories>
+											<li>PlantFoodRaw</li>
+											<li>AnimalProductRaw</li>
+										</categories>
+									</filter>
+									<count>21</count>
+								</li>
+							</ingredients>
+							<products>
+								<MealLavish>20</MealLavish>
+							</products>
+							<skillRequirements>
+								<Cooking>15</Cooking>
+							</skillRequirements>
+						</RecipeDef>
+
+						<RecipeDef ParentName="CookMealVegBulk">
+							<defName>CookMealLavishVegBulk50</defName>
+							<label>cook vegetarian lavish meals in bulk (50)</label>
+							<description>Cook very complex meals from a combination of plant ingredients, eggs and milk. Much of the ingredients are wasted.</description>
+							<workAmount>25000</workAmount>
+							<jobString>Cooking vegetarian lavish meals.</jobString>
+							<ingredients>
+								<li>
+									<filter>
+										<categories>
+											<li>PlantFoodRaw</li>
+											<li>AnimalProductRaw</li>
+										</categories>
+									</filter>
+									<count>55</count>
+								</li>
+							</ingredients>
+							<products>
+								<MealLavish>50</MealLavish>
+							</products>
+							<skillRequirements>
+								<Cooking>18</Cooking>
+							</skillRequirements>
+						</RecipeDef>
+
+						<!-- Vegetarian packaged survival meals -->
+
+						<RecipeDef ParentName="CookMealVegBulk">
+							<defName>CookMealSurvivalVegBulk5</defName>
+							<label>cook vegetarian packaged survival meals in bulk (5)</label>
+							<description>Prepare packaged survivals meal from a combination of plant ingredients, eggs and milk. Much of the ingredients are wasted in the preservation process.</description>
+							<workAmount>2175</workAmount>
+							<jobString>Cooking vegetarian survival meals.</jobString>
+							<ingredients>
+								<li>
+									<filter>
+										<categories>
+											<li>PlantFoodRaw</li>
+											<li>AnimalProductRaw</li>
+										</categories>
+									</filter>
+									<count>3</count>
+								</li>
+							</ingredients>
+							<products>
+								<MealSurvivalPack>5</MealSurvivalPack>
+							</products>
+							<skillRequirements>
+								<Cooking>9</Cooking>
+							</skillRequirements>
+							<researchPrerequisite>PackagedSurvivalMeal</researchPrerequisite>
+						</RecipeDef>
+
+						<RecipeDef ParentName="CookMealVegBulk">
+							<defName>CookMealSurvivalVegBulk10</defName>
+							<label>cook vegetarian packaged survival meals in bulk (10)</label>
+							<description>Prepare packaged survivals meal from a combination of plant ingredients, eggs and milk. Much of the ingredients are wasted in the preservation process.</description>
+							<workAmount>4050</workAmount>
+							<jobString>Cooking vegetarian survival meals.</jobString>
+							<ingredients>
+								<li>
+									<filter>
+										<categories>
+											<li>PlantFoodRaw</li>
+											<li>AnimalProductRaw</li>
+										</categories>
+									</filter>
+									<count>6.1</count>
+								</li>
+							</ingredients>
+							<products>
+								<MealSurvivalPack>10</MealSurvivalPack>
+							</products>
+							<skillRequirements>
+								<Cooking>12</Cooking>
+							</skillRequirements>
+							<researchPrerequisite>PackagedSurvivalMeal</researchPrerequisite>
+						</RecipeDef>
+
+						<RecipeDef ParentName="CookMealVegBulk">
+							<defName>CookMealSurvivalVegBulk20</defName>
+							<label>cook vegetarian packaged survival meals in bulk (20)</label>
+							<description>Prepare packaged survivals meal from a combination of plant ingredients, eggs and milk. Much of the ingredients are wasted in the preservation process.</description>
+							<workAmount>7200</workAmount>
+							<jobString>Cooking vegetarian survival meals.</jobString>
+							<ingredients>
+								<li>
+									<filter>
+										<categories>
+											<li>PlantFoodRaw</li>
+											<li>AnimalProductRaw</li>
+										</categories>
+									</filter>
+									<count>12.6</count>
+								</li>
+							</ingredients>
+							<products>
+								<MealSurvivalPack>20</MealSurvivalPack>
+							</products>
+							<skillRequirements>
+								<Cooking>15</Cooking>
+							</skillRequirements>
+							<researchPrerequisite>PackagedSurvivalMeal</researchPrerequisite>
+						</RecipeDef>
+
+						<RecipeDef ParentName="CookMealVegBulk">
+							<defName>CookMealSurvivalVegBulk50</defName>
+							<label>cook vegetarian packaged survival meals in bulk (50)</label>
+							<description>Prepare packaged survivals meal from a combination of plant ingredients, eggs and milk. Much of the ingredients are wasted in the preservation process.</description>
+							<workAmount>15000</workAmount>
+							<jobString>Cooking vegetarian survival meals.</jobString>
+							<ingredients>
+								<li>
+									<filter>
+										<categories>
+											<li>PlantFoodRaw</li>
+											<li>AnimalProductRaw</li>
+										</categories>
+									</filter>
+									<count>33</count>
+								</li>
+							</ingredients>
+							<products>
+								<MealSurvivalPack>50</MealSurvivalPack>
+							</products>
+							<skillRequirements>
+								<Cooking>18</Cooking>
+							</skillRequirements>
+							<researchPrerequisite>PackagedSurvivalMeal</researchPrerequisite>
+						</RecipeDef>
+
+					</value>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/RecipeDef[defName="CookMealFineVegBulk"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/RecipeDef[defName="CookMealLavishVegBulk"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/RecipeDef[defName="CookMealSurvivalVegBulk"]</xpath>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

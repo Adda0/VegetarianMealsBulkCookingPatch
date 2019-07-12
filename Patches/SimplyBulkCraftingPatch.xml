@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Simply Bulk Crafting</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/RecipeDef[defName="CookMealFineVegBulk"]/label</xpath>
+					<value>
+						<label>cook vegetarian fine meals in bulk</label>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/RecipeDef[defName="CookMealFineVegBulk"]/skillRequirements/Cooking</xpath>
+					<value>
+						<Cooking>8</Cooking>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/RecipeDef[defName="CookMealLavishVegBulk"]/label</xpath>
+					<value>
+						<label>cook vegetarian lavish meals in bulk</label>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/RecipeDef[defName="CookMealLavishVegBulk"]/skillRequirements/Cooking</xpath>
+					<value>
+						<Cooking>8</Cooking>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/RecipeDef[defName="CookMealSurvivalVegBulk"]/label</xpath>
+					<value>
+						<label>cook vegetarian packaged survival meals in bulk</label>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/RecipeDef[defName="CookMealSurvivalVegBulk"]/skillRequirements/Cooking</xpath>
+					<value>
+						<Cooking>10</Cooking>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
