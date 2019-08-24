@@ -5,11 +5,11 @@
 	<supportedVersions><li>1.0</li></supportedVersions>
 	<url>https://steamcommunity.com/sharedfiles/filedetails/?id=1797189089</url>
 	<description>
-Simple mod adding new recipes for cooking vegetarian meals from Vegetarian Meals [1.0] in bulk – in packs of four (in order to be compatible with Simple Bulk Cooking, Feed The Colonists, Simply Bulk Crafting) or with more options (for compatibility with Master of Cooking).
+Simple mod adding new recipes for cooking vegetarian meals from Vegetarian Meals [1.0] in bulk – in packs of four (in order to be compatible with Simple Bulk Cooking, Feed The Colonists, Simply Bulk Crafting) or with more options (for compatibility with Master of Cooking or RimCuisine 2).
 
 ––––––––––––
 New recipes
-Stats of those meals are the same as in Vegetarian Meals [1.0]. I simply multiplied the number of food requirements by the number of cooked meals in one go. Work amount was adjusted to be the same as in Simple Bulk Cooking, Feed The Colonists, Simply Bulk Crafting and Master of Cooking.
+Stats of those meals are the same as in Vegetarian Meals [1.0]. I simply multiplied the number of food requirements by the number of cooked meals in one go. Work amount was adjusted to correspond to recommended mods.
 
 For higher demands on those food requirements, I suggest using my other mod called Vegetarian Meals Increased Nutrition which increases the amount of nutrition needed for vegetarian meals so vanilla meals still have a place in the game and vegetarian meals are not that overpowered. Comes with full compatibility for every one of listed bulk cooking mods.
 
@@ -31,10 +31,12 @@ Simply Bulk Crafting by Stein – adds not only bulk cooking options for vanilla
 
 Master of Cooking by leafzxg and duduluu – adds quite a few new bulk cooking recipes for vanilla meals in packs of 5, 10, 20, 50 and in packs of 10 and 20 for pemmican, wort and kibble. Also adjusts work amount and amount of nutrition required for bulk cooking.
 
-Vegetarian Meals Increased Nutrition by Adda – increases the amount of nutrition needed to cook these new vegetarian meals so vanilla meals still have a place in the game (keeps vanilla recipes attractive for when meat is available) and vegetarian meals are not that overpowered.
+[1.0] RimCuisine 2 Meals and Munchies Expansion from RimCuisine 2 mod collection by Crustypeanut – a vanilla-friendly overhaul of farming that adds more than 40 new crops and a lot of new meals while rebalancing food categories and much more.
 
 Compatible mods
 Mod should be fully compatible with every other mod. Though if you find any incompatibility, let me know in the discussion below so I could fix it or at least give you a warning.
+
+Vegetarian Meals Increased Nutrition by Adda – increases the amount of nutrition needed to cook these new vegetarian meals so vanilla meals still have a place in the game (keeps vanilla recipes attractive for when meat is available) and vegetarian meals are not that overpowered.
 
 Known incompatible mods
 None so far. If you find any incompatibility, let me know in the discussion below so I could fix it or at least give you a warning.
@@ -49,19 +51,17 @@ Core
 *** other mods ***
 Vegetarian Meals [1.0]
 *** other mods ***
-Simple Bulk Cooking, Feed The Colonists, Simply Bulk Crafting or Master of Cooking
+*** one of the recommended mods ***
 Vegetarian Meals Bulk Cooking Patch
 *** other mods ***
 
-Load order should not be affected by any other mods. 
-
-If you find any problems, just let me know in the discussion below so I can fix them.
+Load order should not be affected by any other mods but if you find any problems, just let me know in the discussion below so I can fix them.
 
 ––––––––––––
 Credits
 Original mod: Vegetarian Meals [1.0] by ConZ – I used his meals and just rewrite his code to add an option to cook any of these three new vegetarian meals in bulk.
 
-All Bulk cooking features mods listed above: I adjusted my mod to have the same features and stats as these mods to include the ability to cook vegetarian meals from Vegetarian Meals [1.0] in bulk as well as vanilla meals.
+All bulk cooking features mods listed above: I adjusted my mod to have the same features and stats as these mods to include the ability to cook vegetarian meals from Vegetarian Meals [1.0] in bulk as well as vanilla meals.
 
 License
 All original code in this mod is licensed under the MIT license[opensource.org]. Do whatever you might want to do with my mod, but would be nice if you would give me credit for the original mod/idea :)
