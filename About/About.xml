@@ -2,7 +2,11 @@
 <ModMetaData>
 	<name>Vegetarian Meals Bulk Cooking Patch</name>
 	<author>Adda</author>
-	<supportedVersions><li>1.0</li></supportedVersions>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+	</supportedVersions>
+	<packageId>Adda.VegetarianMealsBulkCookingPatch</packageId>
 	<url>https://steamcommunity.com/sharedfiles/filedetails/?id=1797189089</url>
 	<description>
 Simple mod adding new recipes for cooking vegetarian meals from Vegetarian Meals [1.0] in bulk – in packs of four (in order to be compatible with Simple Bulk Cooking, Feed The Colonists, Simply Bulk Crafting) or with more options (for compatibility with Master of Cooking or RimCuisine 2).
