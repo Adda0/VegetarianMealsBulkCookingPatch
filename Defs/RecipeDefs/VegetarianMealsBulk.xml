@@ -36,7 +36,7 @@
 
 	<RecipeDef ParentName="CookMealVegBulk">
 		<defName>CookMealFineVegBulk</defName>
-		<label>cook four vegetarian fine meals</label>
+		<label>cook vegetarian fine meal x4</label>
 		<description>Cook four somewhat complex meals from a combination of plant ingredients, eggs and milk.</description>
 		<workAmount>1575</workAmount>
 		<jobString>Cooking vegetarian fine meals.</jobString>
@@ -61,7 +61,7 @@
 
 	<RecipeDef ParentName="CookMealVegBulk">
 		<defName>CookMealLavishVegBulk</defName>
-		<label>cook four vegetarian lavish meals</label>
+		<label>cook vegetarian lavish meal x4</label>
 		<description>Cook four very complex meals from a combination of plant ingredients, eggs and milk. Much of the ingredients are wasted.</description>
 		<workAmount>2800</workAmount>
 		<jobString>Cooking vegetarian lavish meals.</jobString>
@@ -86,7 +86,7 @@
 
 	<RecipeDef ParentName="CookMealVegBulk">
 		<defName>CookMealSurvivalVegBulk</defName>
-		<label>cook four vegetarian packaged survival meals</label>
+		<label>cook vegetarian packaged survival meal x4</label>
 		<description>Prepare four packaged survivals meal from a combination of plant ingredients, eggs and milk. Much of the ingredients are wasted in the preservation process.</description>
 		<workAmount>1575</workAmount>
 		<jobString>Cooking vegetarian survival meals.</jobString>
