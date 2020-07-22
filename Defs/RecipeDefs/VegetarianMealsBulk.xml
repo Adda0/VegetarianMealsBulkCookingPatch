@@ -55,7 +55,7 @@
 			<MealFine>4</MealFine>
 		</products>
 		<skillRequirements>
-			<Cooking>9</Cooking>
+			<Cooking>6</Cooking>
 		</skillRequirements>
 	</RecipeDef>
 
@@ -80,7 +80,7 @@
 			<MealLavish>4</MealLavish>
 		</products>
 		<skillRequirements>
-			<Cooking>11</Cooking>
+			<Cooking>8</Cooking>
 		</skillRequirements>
 	</RecipeDef>
 
@@ -105,7 +105,7 @@
 			<MealSurvivalPack>4</MealSurvivalPack>
 		</products>
 		<skillRequirements>
-			<Cooking>11</Cooking>
+			<Cooking>8</Cooking>
 		</skillRequirements>
 		<researchPrerequisite>PackagedSurvivalMeal</researchPrerequisite>
 	</RecipeDef>
